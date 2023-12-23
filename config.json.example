@@ -1,0 +1,8 @@
+{
+    "api_key": "YOUR_API_KEY_HERE",
+    "api_email": "YOUR_API_EMAIL_HERE",
+    "zone_id": "YOUR_ZONE_ID_HERE",
+    "domain": "YOURE_DOMAIN_HERE",
+    "api_endpoint": "https://api.cloudflare.com/client/v4/zones/%s/dns_records",
+    "record_type": "A"
+}
