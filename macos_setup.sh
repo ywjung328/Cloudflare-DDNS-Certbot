@@ -36,7 +36,8 @@ else
     exit 0
 fi
 
-cp ./config.json $HOME/CF-DDNS
+rm $HOME/CF-DDNS/config.json
+ln -s $PWD/config.json $HOME/CF-DDNS
 
 echo "Adding cron job."
 crontab -l > cronlist
