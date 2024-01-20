@@ -1,3 +1,0 @@
-*/5 * * * * /Users/jung-yeon-woo/CF-DDNS/cf-ddns
-* */12 * * * rm /Users/jung-yeon-woo/CF-DDNS/logs/*.log
-0 18 1 * * /bin/bash /Users/jung-yeon-woo/CF-DDNS/dns-cloudflare-renew.sh
