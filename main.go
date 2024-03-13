@@ -67,7 +67,7 @@ func main() {
 		recordID, err := getRecordID(domain, config.RecordType)
 
 		if err != nil {
-			logger.Error(fmt.Sprintf("Error fetching DNS record ID: %v", err.Error()))
+			logger.Error(fmt.Sprintf("Error fetching DNS record (%v) ID: %v", domain, err.Error()))
 			break
 		} else {
 			logger.Info(fmt.Sprintf("Fetching DNS record ID for %v done successfully: %v", domain, recordID))
